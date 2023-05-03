@@ -1,1 +1,1 @@
-https://thelewisndegwa.github.io/bot-battle-code-challenge/
+https://helpful-druid-5e31a8.netlify.app/
