@@ -1,10 +1,10 @@
 import './App.css';
-import YourBotArmy from './YourBotArmy';
+import SelectedBots from './selectedBots';
 
 function App() {
   return (
     <div className="App">
-      <YourBotArmy />
+      <SelectedBots />
     </div>
   );
 }

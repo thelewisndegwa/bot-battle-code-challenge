@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-function BotCollection(props) {
+function AllBots(props) {
   const [bots, setBots] = useState([]);
 
   useEffect(() => {
@@ -32,4 +32,4 @@ function BotCollection(props) {
   );
 }
 
-export default BotCollection;
+export default AllBots;

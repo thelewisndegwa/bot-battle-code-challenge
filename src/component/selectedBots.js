@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import BotCollection from './BotCollection';
+import AllBots from './allBots';
+// import AllBots from './allBots';
 
-function YourBotArmy() {
+function SelectedBots() {
     const [enlistedBots, setEnlistedBots] = useState([]);
   
     function enlistBot(bot) {
@@ -41,9 +42,9 @@ function YourBotArmy() {
             </div>
           ))}
         </div>
-        <BotCollection onEnlistBot={enlistBot} />
+        <AllBots onEnlistBot={enlistBot} />
       </div>
     );
   }
   
-  export default YourBotArmy;
+  export default SelectedBots;
