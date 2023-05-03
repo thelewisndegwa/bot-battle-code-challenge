@@ -1,5 +1,6 @@
 import './App.css';
-import SelectedBots from './selectedBots';
+
+import SelectedBots from './component/selectedBots';
 
 function App() {
   return (
